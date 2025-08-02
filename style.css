@@ -1,0 +1,41 @@
+  *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            font-family: Arial, sans-serif;
+            height: 100vh;
+            background-color: #0f0e0e;
+            gap:30px;
+        }
+        h1{
+            color: #fff;
+            font-size: 2rem;
+        }
+        .citation{
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            max-width: 600px;
+            text-align: center;
+            font-size: 1.2rem;
+        }
+        #autor{
+            font-size: 1rem;
+            color: #f7f5f5;
+        }
+        button{
+            padding: 10px 20px;
+            font-size: 1rem;
+            color: #fff;
+            background-color: #4a0909;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
