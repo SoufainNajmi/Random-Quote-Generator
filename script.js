@@ -17,3 +17,11 @@
 
         // Initial call to display a random quote on page load
         btn.click();
+
+// function about the change of the background color
+        function changeBackgroundColor() {
+            const colors = ['#FF5733','#f0f0f0','#3c0436ff','#494545', '#33FF57','#092d1dff', '#3357FF', '#03e6ffff', '#F0E68C', '#FF69B4'];
+            const randomColor = colors[Math.floor(Math.random() * 10)];
+            document.body.style.backgroundColor = randomColor;
+           console.log(randomColor);
+        } 
